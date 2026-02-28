@@ -297,6 +297,7 @@ color: #a0a0a0
     margin-right: 5px;
 }
 
+
 @media screen  and (max-width:1200px) {
     .main-container{
         grid-template-columns: 1fr;
@@ -308,4 +309,15 @@ color: #a0a0a0
         height: auto;
     }
     
+.project a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit;        /* Keeps your original white/gray text color */
+    display: block;        /* Ensures the link covers the whole card area */
+}
+
+/* Optional: Keep the headline bold if it changed */
+.project h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 }
