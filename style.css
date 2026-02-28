@@ -297,18 +297,6 @@ color: #a0a0a0
     margin-right: 5px;
 }
 
-
-@media screen  and (max-width:1200px) {
-    .main-container{
-        grid-template-columns: 1fr;
-        padding: 20px;
-    }
-
-    .sidebar{
-        position: static;
-        height: auto;
-    }
-    
 .project a {
     text-decoration: none; /* Removes the underline */
     color: inherit;        /* Keeps your original white/gray text color */
@@ -320,4 +308,16 @@ color: #a0a0a0
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+@media screen  and (max-width:1200px) {
+    .main-container{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .sidebar{
+        position: static;
+        height: auto;
+    }  
 }
+
